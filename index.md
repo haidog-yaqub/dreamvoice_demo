@@ -185,17 +185,17 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
     </td>
     <td style="text-align: center; vertical-align: middle;">
       <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvc/9_Rough sounding attractive teenage girl with a voice suited for client and public interaction..wav" type="audio/wav">
+        <source src="dreamvc/9_Rough sounding atractive teenage girl with a voice suited for client and public interaction..wav" type="audio/wav">
       </audio>
     </td>
     <td style="text-align: center; vertical-align: middle;">
       <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvg/9_Rough sounding attractive teenage girl with a voice suited for client and public interaction..wav" type="audio/wav">
+        <source src="dreamvg/9_Rough sounding atractive teenage girl with a voice suited for client and public interaction..wav" type="audio/wav">
       </audio>
     </td>
     <td style="text-align: center; vertical-align: middle;">
       <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvg/9_Rough sounding attractive teenage girl with a voice suited for client and public interaction._freevc.wav" type="audio/wav">
+        <source src="dreamvg/9_Rough sounding atractive teenage girl with a voice suited for client and public interaction._freevc.wav" type="audio/wav">
       </audio>
     </td>
   </tr>

@@ -9,13 +9,13 @@
 </div>
 
 <div align="center">
-    <a href="https://arxiv.org/abs/2406.11768" style="text-decoration: none;">
+    <a href="https://arxiv.org/abs/2406.16314" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Paper-arxiv.org-red?style=for-the-badge&logo=arxiv" alt="Paper">
     </a>
-    <a href="https://github.com/Sreyan88/GAMA" style="text-decoration: none;">
+    <a href="https://github.com/myshell-ai/DreamVoice" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Code-GitHub-blue?style=for-the-badge&logo=github" alt="Code">
     </a>
-    <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" style="text-decoration: none;">
+    <a href="https://www.google.co.uk/" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Dataset-Google%20Drive-yellow?style=for-the-badge&logo=google-drive" alt="Dataset">
     </a>
 </div>

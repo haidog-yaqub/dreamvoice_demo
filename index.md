@@ -6,24 +6,24 @@
 <p>🚀<a href="https://github.com/myshell-ai/DreamVoice">Code</a>is available.</p> 
 <p>Paper link: <a href="https://arxiv.org/abs/2406.16314"></a></p> 
 
-     <div class="button-container">
-            <a href="https://arxiv.org/abs/2406.11768" class="button">
-                <i class="fas fa-file-pdf"></i> Paper
-            </a>
-            <a href="https://github.com/Sreyan88/GAMA" class="button">
-                <i class="fab fa-github"></i> Code
-            </a>
-            <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" class="button">
-                <i class="fas fa-database"></i> Dataset
-            </a>
-            <a href="https://huggingface.co/spaces/sonalkum/GAMA" class="button">
-                <i class="fas fa-play"></i> GAMA Demo
-            </a>
-            <a href="https://huggingface.co/spaces/sonalkum/GAMA-IT" class="button">
-                <i class="fas fa-play"></i> GAMA-IT Demo
-            </a>
+<div class="button-container">
+    <a href="https://arxiv.org/abs/2406.11768" class="button">
+        <i class="fas fa-file-pdf"></i> Paper
+    </a>
+    <a href="https://github.com/Sreyan88/GAMA" class="button">
+        <i class="fab fa-github"></i> Code
+    </a>
+    <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" class="button">
+        <i class="fas fa-database"></i> Dataset
+    </a>
+    <a href="https://huggingface.co/spaces/sonalkum/GAMA" class="button">
+        <i class="fas fa-play"></i> GAMA Demo
+    </a>
+    <a href="https://huggingface.co/spaces/sonalkum/GAMA-IT" class="button">
+        <i class="fas fa-play"></i> GAMA-IT Demo
+    </a>
+</div>
 
-        </div>
         
 </div>
 

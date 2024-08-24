@@ -146,3 +146,9 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
         <td><audio controls style = "width: 180px;height: 50px"><source src="dreamvg/18_A senior male voice, with a rough texture._freevc.wav" type="audio/wav"></audio></td>
     </tr>
 </table>
+
+## Model
+
+<p align="center">
+<img src="data/model.png">
+</p>

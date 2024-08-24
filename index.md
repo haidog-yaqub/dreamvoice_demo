@@ -1,5 +1,5 @@
-<p align="center">
-<img src="data/cover.png">
+<p align="center" style="margin-bottom: 10px;">
+  <img src="data/cover.png">
 </p>
 
 <div style="text-align: center"> 

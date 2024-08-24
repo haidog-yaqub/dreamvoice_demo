@@ -49,41 +49,6 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
       </audio>
     </td>
   </tr>
-</table>
-
-<table align="center" style="margin: 0px auto; width: 100%;">
-  <tr>
-    <th style="text-align: center; vertical-align: middle; width: 15%;">Source</th>
-    <th style="text-align: center; vertical-align: middle; width: 45%;">Prompt</th>
-    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVC</th>
-    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVG+ReDiffVC</th>
-    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVG+FreeVC</th>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <audio controls style="width: 100px; height: 30px;">
-        <source src="gt/652_129742_000010_000003.wav" type="audio/wav">
-      </audio>
-    </td>
-    <td style="text-align: left; vertical-align: middle;">
-      A smooth young voice with a gender-neutral tone, that sounds cute.
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvc/3_A smooth young voice with a gender-neutral tone, that sounds cute. .wav" type="audio/wav">
-      </audio>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvg/3_A smooth young voice with a gender-neutral tone, that sounds cute. .wav" type="audio/wav">
-      </audio>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <audio controls style="width: 100px; height: 30px;">
-        <source src="dreamvg/3_A smooth young voice with a gender-neutral tone, that sounds cute. _freevc.wav" type="audio/wav">
-      </audio>
-    </td>
-  </tr>
   <tr>
     <td style="text-align: center; vertical-align: middle;">
       <audio controls style="width: 100px; height: 30px;">

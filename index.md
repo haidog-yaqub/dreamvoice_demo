@@ -6,25 +6,24 @@
 <p>🚀<a href="https://github.com/myshell-ai/DreamVoice">Code</a>is available.</p> 
 <p>Paper link: <a href="https://arxiv.org/abs/2406.16314"></a></p> 
 
-<div class="button-container">
-    <a href="https://arxiv.org/abs/2406.11768" class="button">
-        <i class="fas fa-file-pdf"></i> Paper
-    </a>
-    <a href="https://github.com/Sreyan88/GAMA" class="button">
-        <i class="fab fa-github"></i> Code
-    </a>
-    <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" class="button">
-        <i class="fas fa-database"></i> Dataset
-    </a>
-    <a href="https://huggingface.co/spaces/sonalkum/GAMA" class="button">
-        <i class="fas fa-play"></i> GAMA Demo
-    </a>
-    <a href="https://huggingface.co/spaces/sonalkum/GAMA-IT" class="button">
-        <i class="fas fa-play"></i> GAMA-IT Demo
-    </a>
 </div>
 
-        
+<div align="center">
+    <a href="https://arxiv.org/abs/2406.11768" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Paper-arxiv.org-red?style=for-the-badge&logo=arxiv" alt="Paper">
+    </a>
+    <a href="https://github.com/Sreyan88/GAMA" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Code-GitHub-blue?style=for-the-badge&logo=github" alt="Code">
+    </a>
+    <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/Dataset-Google%20Drive-yellow?style=for-the-badge&logo=google-drive" alt="Dataset">
+    </a>
+    <a href="https://huggingface.co/spaces/sonalkum/GAMA" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GAMA%20Demo-Hugging%20Face-orange?style=for-the-badge&logo=hugging-face" alt="GAMA Demo">
+    </a>
+    <a href="https://huggingface.co/spaces/sonalkum/GAMA-IT" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GAMA--IT%20Demo-Hugging%20Face-lightgrey?style=for-the-badge&logo=hugging-face" alt="GAMA-IT Demo">
+    </a>
 </div>
 
 <div style="text-align: justify"> 

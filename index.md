@@ -1,7 +1,7 @@
 <div style="text-align: center"> 
 
 <p align="center">
-<img src="data/conver.png">
+<img src="data/cover.png">
 </p>
 
 <h1>DreamVoice: Text-guided Voice Conversion</h1> 

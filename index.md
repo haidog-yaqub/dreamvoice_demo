@@ -1,3 +1,7 @@
+<p align="center">
+<img src="data/cover.png">
+</p>
+
 <div style="text-align: center"> 
 
 <h1>DreamVoice: Text-guided Voice Conversion</h1> 

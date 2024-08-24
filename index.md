@@ -16,6 +16,40 @@
 DreamVoice is an innovative approach to voice conversion (VC) that leverages text-guided generation to create personalized and versatile voice experiences. Unlike traditional VC methods, which require a target recording during inference, DreamVoice introduces a more intuitive solution by allowing users to specify desired voice timbres through text prompts.
 
 ## Demo
+<table align="center" style="margin: 0px auto; width: 100%;">
+  <tr>
+    <th style="text-align: center; vertical-align: middle; width: 15%;">Source</th>
+    <th style="text-align: center; vertical-align: middle; width: 45%;">Prompt</th>
+    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVC</th>
+    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVG+ReDiffVC</th>
+    <th style="text-align: center; vertical-align: middle; width: 13%;">DreamVG+FreeVC</th>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls style="width: 100px; height: 30px;">
+        <source src="gt/652_129742_000010_000003.wav" type="audio/wav">
+      </audio>
+    </td>
+    <td style="text-align: left; vertical-align: middle;">
+      A smooth young voice with a gender-neutral tone, that sounds cute.
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls style="width: 100px; height: 30px;">
+        <source src="dreamvc/3_A smooth young voice with a gender-neutral tone, that sounds cute. .wav" type="audio/wav">
+      </audio>
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls style="width: 100px; height: 30px;">
+        <source src="dreamvg/3_A smooth young voice with a gender-neutral tone, that sounds cute. .wav" type="audio/wav">
+      </audio>
+    </td>
+    <td style="text-align: center; vertical-align: middle;">
+      <audio controls style="width: 100px; height: 30px;">
+        <source src="dreamvg/3_A smooth young voice with a gender-neutral tone, that sounds cute. _freevc.wav" type="audio/wav">
+      </audio>
+    </td>
+  </tr>
+</table>
 
 <table align="center" style="margin: 0px auto;">
   <tr>
@@ -153,22 +187,22 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
 
 <div style="line-height: 1.6;">
     <div style="text-align: center;">
-        <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br>
+        <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br><br>
     </div>
 
     <div style="background-color: white; padding: 15px; border-radius: 5px;">
-        - Modules in <span style="background-color:#A7CBE8; color: black;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="background-color:#B5E3AF; color: black;">green</span> are trained.<br>
-        - <span style="background-color:#F7D99E; color: black;">Yellow blocks</span> represent the source speaker information while <span style="background-color:#F3A6A6; color: black;">red blocks</span> represent the target speaker information.<br>
-        - <span style="background-color:#D2A3D9; color: black;">Purple blocks</span> correspond to the converted speech.<br>
+        - Modules in <span style="background-color:#D9E7F2; color: black;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="background-color:#DFF2E1; color: black;">green</span> are trained.<br>
+        - <span style="background-color:#FCE7C9; color: black;">Yellow blocks</span> represent the source speaker information while <span style="background-color:#F9D6D6; color: black;">red blocks</span> represent the target speaker information.<br>
+        - <span style="background-color:#EAD3EB; color: black;">Purple blocks</span> correspond to the converted speech.<br>
         - Dashed lines represent skip connections.<br>
         - <b>LM</b> represents the Language Model.<br>
-        - <code style="background-color:#A7CBE8; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#F7D99E; color: black;">t</code> respectively.<br>
+        - <code style="background-color:#D9E7F2; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#FCE7C9; color: black;">t</code> respectively.<br>
         - <b>SDE solver</b> is the stochastic differential equations for the diffusion sampling.<br>
         - <b>Text Prompt</b> is the text description about the desired target voice.<br>
-        - <code style="background-color:#F7D99E; color: black;">t</code> is the diffusion step.<br>
+        - <code style="background-color:#FCE7C9; color: black;">t</code> is the diffusion step.<br>
         - <b>Content</b> is the content embedding of the source speaker.<br>
-        - <code style="background-color:#F3A6A6; color: black;">s</code> is the speaker embedding of the target voice.<br>
-        - <code style="background-color:#D2A3D9; color: black;">m</code> is the mel-spectrogram.<br>
-        - <code style="background-color:#D2A3D9; color: black;">m_t</code> and <code style="background-color:#F3A6A6; color: black;">s_t</code> represent the noisy versions of the mel-spectrogram and the speaker embedding at the diffusion step <code style="background-color:#F7D99E; color: black;">t</code>.
+        - <code style="background-color:#F9D6D6; color: black;">s</code> is the speaker embedding of the target voice.<br>
+        - <code style="background-color:#EAD3EB; color: black;">m</code> is the mel-spectrogram.<br>
+        - <code style="background-color:#EAD3EB; color: black;">m_t</code> and <code style="background-color:#F9D6D6; color: black;">s_t</code> represent the noisy versions of the mel-spectrogram and the speaker embedding at the diffusion step <code style="background-color:#FCE7C9; color: black;">t</code>.
     </div>
 </div>

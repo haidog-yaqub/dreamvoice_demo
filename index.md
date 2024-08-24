@@ -7,7 +7,7 @@
 <p align="center">
 <img src="images/method.png">
 </p>
-
+</div>
 
 ## Introduction
 

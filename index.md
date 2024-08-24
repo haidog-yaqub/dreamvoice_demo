@@ -150,3 +150,21 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
 <p align="center">
 <img src="data/model.png">
 </p>
+
+<div style="line-height: 1.6;">
+    <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br><br>
+
+    - Modules in <span style="color:blue;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="color:green;">green</span> are trained.<br>
+    - <span style="color:yellow;">Yellow blocks</span> represent the source speaker information while <span style="color:red;">red blocks</span> represent the target speaker information.<br>
+    - <span style="color:purple;">Purple blocks</span> correspond to the converted speech.<br>
+    - Dashed lines represent skip connections.<br>
+    - <b>LM</b> represents the Language Model.<br>
+    - <code>KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code>t</code> respectively.<br>
+    - <b>SDE solver</b> is the stochastic differential equations for the diffusion sampling.<br>
+    - <b>Text Prompt</b> is the text description about the desired target voice.<br>
+    - <code>t</code> is the diffusion step.<br>
+    - <b>Content</b> is the content embedding of the source speaker.<br>
+    - <code>s</code> is the speaker embedding of the target voice.<br>
+    - <code>m</code> is the mel-spectrogram.<br>
+    - <code>m_t</code> and <code>s_t</code> represent the noisy versions of the mel-spectrogram and the speaker embedding at the diffusion step <code>t</code>.
+</div>

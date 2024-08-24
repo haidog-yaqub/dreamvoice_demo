@@ -18,12 +18,6 @@
     <a href="https://drive.google.com/drive/folders/1W8ZtlhXNZ2IdVcKWsQpLD4jVw98brYDM?usp=sharing" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Dataset-Google%20Drive-yellow?style=for-the-badge&logo=google-drive" alt="Dataset">
     </a>
-    <a href="https://huggingface.co/spaces/sonalkum/GAMA" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/GAMA%20Demo-Hugging%20Face-orange?style=for-the-badge&logo=hugging-face" alt="GAMA Demo">
-    </a>
-    <a href="https://huggingface.co/spaces/sonalkum/GAMA-IT" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/GAMA--IT%20Demo-Hugging%20Face-lightgrey?style=for-the-badge&logo=hugging-face" alt="GAMA-IT Demo">
-    </a>
 </div>
 
 <div style="text-align: justify"> 
@@ -420,7 +414,7 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
   </tr>
 </table>
 
-## Model
+## Method
 
 <p align="center">
 <img src="data/model.png">

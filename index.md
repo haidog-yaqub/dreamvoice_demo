@@ -2,7 +2,7 @@
 
 <h1>DreamVoice: Text-guided Voice Conversion</h1> 
 
-<p>Jiarui Hai<sup>1*</sup>, Karan Thakkar<sup>1*</sup>, Helin Wang<sup>1</sup>, Zengyi Qin<sup>2,3</sup>, Mounya Elhilali<sup>1</sup><br> <sup>1</sup>Johns Hopkins University, Baltimore, USA<br> <sup>2</sup>Massachusetts Institute of Technology, Cambridge, MA, USA<br> <sup>3</sup>MyShell.ai, USA<br> <sup>*</sup>equal contribution</p>
+<p>Jiarui Hai<sup>1*</sup>, Karan Thakkar<sup>1*</sup>, Helin Wang<sup>1</sup>, Zengyi Qin<sup>2,3</sup>, Mounya Elhilali<sup>1</sup><br> <sup>1</sup>Johns Hopkins University, Baltimore, MD, USA<br> <sup>2</sup>Massachusetts Institute of Technology, Cambridge, MA, USA<br> <sup>3</sup>MyShell.ai, USA<br> <sup>*</sup>equal contribution</p>
 
 </div>
 

@@ -418,7 +418,7 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
         - <code style="background-color:#EAD3EB; color: black;">Purple blocks</code> correspond to the converted speech.<br>
         - Dashed lines represent skip connections.<br>
         - <b>LM</b> represents the Language Model.<br>
-        - <code style="background-color: #EEEEEE; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#EEEEEE; color: black;">t</code> respectively.<br>
+        - <code style="background-color: #EEEEEE; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <code style="background-color: #EEEEEE; color: black;">FiLM</code> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#EEEEEE; color: black;">t</code> respectively.<br>
         - <b>SDE solver</b> is the stochastic differential equations for the diffusion sampling.<br>
         - <b>Text Prompt</b> is the text description about the desired target voice.<br>
         - <code style="background-color:#EEEEEE; color: black;">t</code> is the diffusion step.<br>

@@ -1,16 +1,13 @@
 <div style="text-align: center"> 
 
 <h1>DreamVoice: Text-guided Voice Conversion</h1> 
+<p>Jiarui Hai<sup>1*</sup>, Karan Thakkar<sup>1*</sup>, Helin Wang<sup>1</sup>, Zengyi Qin<sup>2,3</sup>, Mounya Elhilali<sup>1</sup><br> <sup>1</sup>Johns Hopkins University, Baltimore, USA<br> <sup>2</sup>Massachusetts Institute of Technology, Cambridge, MA, USA<br> <sup>3</sup>MyShell.ai, USA<br> <sup>*</sup>equal contribution</p>
 <p>Code is available: <a href="https://github.com/myshell-ai/DreamVoice">DreamVoice</a></p> 
-<p>Authors: Jiarui Hai<sup>1*</sup>, Karan Thakkar<sup>1*</sup>, Helin Wang<sup>1</sup>, Zengyi Qin<sup>2,3</sup>, Mounya Elhilali<sup>1</sup><br> <sup>1</sup>Johns Hopkins University, Baltimore, USA<br> <sup>2</sup>Massachusetts Institute of Technology, Cambridge, MA, USA<br> <sup>3</sup>MyShell.ai, USA<br> <sup>*</sup>equal contribution</p>
-
-<div style="text-align: justify"> 
 
 ## Introduction
 
 DreamVoice is an innovative approach to voice conversion (VC) that leverages text-guided generation to create personalized and versatile voice experiences. Unlike traditional VC methods, which require a target recording during inference, DreamVoice introduces a more intuitive solution by allowing users to specify desired voice timbres through text prompts.
 
-</div>
 <p align="center">
 <img src="images/method.png">
 </p>

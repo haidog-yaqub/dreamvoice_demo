@@ -1,5 +1,5 @@
-<p align="center;">
-  <img src="data/cover.png" style="width: 75%; margin-bottom: -20px;">
+<p align="center">
+  <img src="data/cover.png" style="width: 75%; margin-bottom: -50px;">
 </p>
 
 <div style="text-align: center"> 

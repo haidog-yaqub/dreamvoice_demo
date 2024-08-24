@@ -155,19 +155,20 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
     <div style="text-align: center;">
         <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br>
     </div>
+
     <div style="background-color: white; padding: 15px; border-radius: 5px;">
-        - Modules in <span style="background-color:#5A9BD3; color: black;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="background-color:#8BBF83; color: black;">green</span> are trained.<br>
-        - <span style="background-color:#F3C969; color: black;">Yellow blocks</span> represent the source speaker information while <span style="background-color:#E57373; color: black;">red blocks</span> represent the target speaker information.<br>
-        - <span style="background-color:#AB81B6; color: black;">Purple blocks</span> correspond to the converted speech.<br>
+        - Modules in <span style="background-color:#A7CBE8; color: black;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="background-color:#B5E3AF; color: black;">green</span> are trained.<br>
+        - <span style="background-color:#F7D99E; color: black;">Yellow blocks</span> represent the source speaker information while <span style="background-color:#F3A6A6; color: black;">red blocks</span> represent the target speaker information.<br>
+        - <span style="background-color:#D2A3D9; color: black;">Purple blocks</span> correspond to the converted speech.<br>
         - Dashed lines represent skip connections.<br>
         - <b>LM</b> represents the Language Model.<br>
-        - <code style="background-color:#5A9BD3; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#F3C969; color: black;">t</code> respectively.<br>
+        - <code style="background-color:#A7CBE8; color: black;">KV</code> represents Cross-Attention (Vaswani et al., 2017) and <b>FiLM</b> represents Feature-wise Linear Modulation layers (Perez et al., 2018) used for fusing Text Prompt and diffusion step <code style="background-color:#F7D99E; color: black;">t</code> respectively.<br>
         - <b>SDE solver</b> is the stochastic differential equations for the diffusion sampling.<br>
         - <b>Text Prompt</b> is the text description about the desired target voice.<br>
-        - <code style="background-color:#F3C969; color: black;">t</code> is the diffusion step.<br>
+        - <code style="background-color:#F7D99E; color: black;">t</code> is the diffusion step.<br>
         - <b>Content</b> is the content embedding of the source speaker.<br>
-        - <code style="background-color:#E57373; color: black;">s</code> is the speaker embedding of the target voice.<br>
-        - <code style="background-color:#AB81B6; color: black;">m</code> is the mel-spectrogram.<br>
-        - <code style="background-color:#AB81B6; color: black;">m_t</code> and <code style="background-color:#E57373; color: black;">s_t</code> represent the noisy versions of the mel-spectrogram and the speaker embedding at the diffusion step <code style="background-color:#F3C969; color: black;">t</code>.
+        - <code style="background-color:#F3A6A6; color: black;">s</code> is the speaker embedding of the target voice.<br>
+        - <code style="background-color:#D2A3D9; color: black;">m</code> is the mel-spectrogram.<br>
+        - <code style="background-color:#D2A3D9; color: black;">m_t</code> and <code style="background-color:#F3A6A6; color: black;">s_t</code> represent the noisy versions of the mel-spectrogram and the speaker embedding at the diffusion step <code style="background-color:#F7D99E; color: black;">t</code>.
     </div>
 </div>

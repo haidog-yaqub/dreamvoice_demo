@@ -444,7 +444,7 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
 
 <div style="line-height: 1.6;">
     <div style="text-align: center;">
-        <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br><br>
+        <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b>
     </div>
 
     <div style="background-color: white; padding: 15px; border-radius: 5px;">

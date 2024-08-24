@@ -425,7 +425,7 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
     </div>
 
     <div style="background-color: white; padding: 15px; border-radius: 5px;">
-        - <code style="background-color:#D9E7F2; color: black;">Modules in Blue</code> are pre-trained models and remain <code style="background-color:#D9E7F2; color: black;">Frozen</code> during training, while <code style="background-color:#DFF2E1; color: black;">Modules in Green</code> are <code style="background-color:#DFF2E1; color: black;">trainable</code>.<br>
+        - <code style="background-color:#D9E7F2; color: black;">Modules in Blue</code> are pre-trained models and remain <code style="background-color:#D9E7F2; color: black;">Frozen</code> during training, while <code style="background-color:#DFF2E1; color: black;">Modules in Green</code> are <code style="background-color:#DFF2E1; color: black;">Trainable</code>.<br>
         - <code style="background-color:#FCE7C9; color: black;">Yellow Blocks</code> represent the source speaker's <code style="background-color:#FCE7C9; color: black;">Content Information</code> while <code style="background-color:#F9D6D6; color: black;">Red Blocks</code> represent the target speaker's <code style="background-color:#F9D6D6; color: black;">Timbre Information</code>.<br>
         - <code style="background-color:#EAD3EB; color: black;">Purple blocks</code> correspond to the <code style="background-color:#EAD3EB; color: black;">Converted Speech</code>.<br>
         - Dashed lines represent skip connections.<br>

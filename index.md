@@ -152,7 +152,9 @@ DreamVoice is an innovative approach to voice conversion (VC) that leverages tex
 </p>
 
 <div style="line-height: 1.6;">
-    <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br>
+    <div style="text-align: center;">
+        <b>Overview of the (a) DreamVC, (b) DreamVG, and (c) Plugin Strategy.</b><br>
+    </div>
     <div style="background-color: white; padding: 15px; border-radius: 5px;">
         - Modules in <span style="background-color:#5A9BD3; color: black;">blue</span> are pre-trained models and remain frozen during training, while modules in <span style="background-color:#8BBF83; color: black;">green</span> are trained.<br>
         - <span style="background-color:#F3C969; color: black;">Yellow blocks</span> represent the source speaker information while <span style="background-color:#E57373; color: black;">red blocks</span> represent the target speaker information.<br>

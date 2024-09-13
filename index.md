@@ -17,7 +17,7 @@
     <a href="https://github.com/myshell-ai/DreamVoice" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Code-GitHub-7399b4?style=for-the-badge&logo=github" alt="Code">
     </a>
-    <a href="https://www.google.co.uk/" style="text-decoration: none;">
+    <a href="https://huggingface.co/datasets/Higobeatz/DreamVoiceDB/tree/main" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Dataset-Google%20Drive-a6c8a0?style=for-the-badge&logo=google-drive" alt="Dataset">
     </a>
 </div>

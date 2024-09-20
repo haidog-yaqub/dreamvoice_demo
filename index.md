@@ -17,7 +17,7 @@
     <a href="https://github.com/myshell-ai/DreamVoice" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Code-GitHub-7399b4?style=for-the-badge&logo=github" alt="Code">
     </a>
-    <a href="https://huggingface.co/datasets/Higobeatz/DreamVoiceDB/tree/main" style="text-decoration: none;">
+    <a href="https://huggingface.co/datasets/Higobeatz/DreamVoiceDB#" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-f0d567?style=for-the-badge&logo=huggingface" alt="Dataset">
     </a>
 </div>
